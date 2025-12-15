@@ -15,11 +15,11 @@ Script Batch สำหรับเชื่อมต่อ / Mount Sharedata, Cl
 1.ดาวน์โหลด/คัดลอก สคริปต์ที่ต้องการไปไว้ในเครื่อง
 2.แก้ไข (Edit) ไฟล์ .bat เพื่อตั้งค่าตัวแปรของคุณ เช่น
 REM -----------------------------
-set RCLONE_EXE=rclone
-set MOUNT_DIR_NAME=XX_Drive
-set MOUNT_POINT=%USERPROFILE%\Desktop\%MOUNT_DIR_NAME% (--- PATH ที่ใช้ในการ Mount ---)
-REM -----------------------------
-set REMOTE_NAME=XXXX ( ชื่อ ที่ใช้เรียกการเชื่อมต่อกับ Cloud นั้นๆ)
+set RCLONE_EXE=rclone  
+set MOUNT_DIR_NAME=XX_Drive  
+set MOUNT_POINT=%USERPROFILE%\Desktop\%MOUNT_DIR_NAME% (--- PATH ที่ใช้ในการ Mount ---)  
+REM -----------------------------  
+set REMOTE_NAME=XXXX ( ชื่อ ที่ใช้เรียกการเชื่อมต่อกับ Cloud นั้นๆ)  
 set REMOTE_PATH=XXXX-XXXXX/XXXX (PATH ที่ต้องการ Mount)
 set LOG_DIR=%USERPROFILE%\scripts (พื้นที่เก็บ Log)
 set LOG_FILE=%LOG_DIR%\mount.log
