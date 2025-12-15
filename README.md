@@ -12,12 +12,12 @@ Script Batch สำหรับเชื่อมต่อ / Mount Sharedata, Cl
 2.ติดตั้ง WinFsp (จำเป็นสำหรับการ Mount บน Windows)
 
 # วิธีใช้งาน
-1.ดาวน์โหลด/คัดลอก สคริปต์ที่ต้องการไปไว้ในเครื่อง
-2.แก้ไข (Edit) ไฟล์ .bat เพื่อตั้งค่าตัวแปรของคุณ เช่น
+1.ดาวน์โหลด/คัดลอก สคริปต์ที่ต้องการไปไว้ในเครื่อง  
+2.แก้ไข (Edit) ไฟล์ .bat เพื่อตั้งค่าตัวแปรของคุณ เช่น  
 REM -----------------------------
 set RCLONE_EXE=rclone  
-set MOUNT_DIR_NAME=XX_Drive  
-set MOUNT_POINT=%USERPROFILE%\Desktop\%MOUNT_DIR_NAME% (--- PATH ที่ใช้ในการ Mount ---)  
+set MOUNT_DIR_NAME=XX_Drive (ชื่อ Floder ที่ระบบจะทำการสร้างขึ้น)  
+set MOUNT_POINT=%USERPROFILE%\Desktop\%MOUNT_DIR_NAME% (PATH ที่ใช้ในการ Mount)  
 REM -----------------------------  
 set REMOTE_NAME=XXXX ( ชื่อ ที่ใช้เรียกการเชื่อมต่อกับ Cloud นั้นๆ)  
 set REMOTE_PATH=XXXX-XXXXX/XXXX (PATH ที่ต้องการ Mount)  
